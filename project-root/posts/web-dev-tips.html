@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Dev Tips | Yashas Blog</title>
+
+  <!-- Correct relative paths from /posts/ to /css/ -->
+  <link rel="stylesheet" href="../css/stylesheet.css" />
+  <link rel="stylesheet" href="../css/effects.css" />
+</head>
+<body class="light-mode">
+  <header class="site-header">
+    <h1>Yashas Blog</h1>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="../index.html">🏠 Home</a></li>
+        <li><a href="emulator-tweaks.html">🎮 Emulator Tweaks</a></li>
+        <li><a href="modding-bussid.html">🚌 BUSSID Mods</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="post-main">
+    <section class="hero-banner">
+      <h2>💡 Web Dev Tips</h2>
+      <p class="subtitle">Clean, semantic, and accessible — the trifecta of maintainable web design</p>
+    </section>
+
+    <section class="post-content">
+      <div class="author-meta">
+       <img src="../images/light-bulb.png" alt="Light bulb icon" />
+        <p><strong>Author:</strong> Yashas<br><strong>Published:</strong> Sept 9, 2025</p>
+      </div>
+
+      <article>
+        <h3>Semantic HTML</h3>
+        <p>
+          I avoid "div soup" by using meaningful tags like <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;aside&gt;</code>. This improves accessibility and makes the code easier to navigate.
+        </p>
+
+        <h3>Modular CSS</h3>
+        <ul>
+          <li>📐 <strong>Structure:</strong> BEM naming conventions</li>
+          <li>🎨 <strong>Design:</strong> Flexbox grids, hover transitions, dark mode toggle</li>
+          <li>🧪 <strong>Testing:</strong> Lighthouse audits, screen reader checks</li>
+        </ul>
+
+        <h3>Accessibility First</h3>
+        <p>
+          I use <code>aria</code> labels, keyboard-friendly navigation, and color contrast checks to ensure my sites are usable by everyone. Inclusive design isn't optional — it's essential.
+        </p>
+
+        <blockquote>
+          “Good design is invisible. Great design is inclusive.”
+        </blockquote>
+
+        <h3>Bonus: My Favorite Dev Tools</h3>
+        <p>
+          VS Code with Emmet, Prettier, and Live Server makes development smooth. I also use Figma for layout planning and GitHub for version control.
+        </p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="https://developer.mozilla.org/"><mark>MDN Web Docs</mark></a></li>
+        <li><a href="https://web.dev/"><mark>Google Web.dev</mark></a></li>
+        <li><a href="https://a11yproject.com/"><mark>Accessibility Project</mark></a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Yashas | <a href="../index.html">Back to Blog</a></p>
+  </footer>
+</body>
+</html>
