@@ -1,6 +1,0 @@
-/home/          /home/index.html        200
-/about/         /about/index.html       200
-/posts/emulator-tweaks/   /posts/emulator-tweaks/index.html   200
-/posts/web-dev-tips/      /posts/web-dev-tips/index.html      200
-/posts/modding-bussid/    /posts/modding-bussid/index.html    200
-/*              /index.html             200
